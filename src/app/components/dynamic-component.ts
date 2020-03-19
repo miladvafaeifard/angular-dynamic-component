@@ -13,7 +13,7 @@ import { ByeModalComponent } from './bye-modal/bye-modal.component';
   selector: 'dynamic-component',
   entryComponents: [HelloModalComponent, ByeModalComponent],
   template: `
-    <div #dynamicComponentContainer></div>
+    <ng-container #dynamicComponentContainer></ng-container>
   `
 })
 export default class DynamicComponent {
